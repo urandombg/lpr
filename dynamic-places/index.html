@@ -36,12 +36,6 @@
     arjs='sourceType: webcam; sourceWidth:800; sourceHeight:600; displayWidth: 800; displayHeight: 600;
          debugUIEnabled: true;'>
     <a-camera gps-camera="minDistance: 40;" rotation-reader></a-camera>
-    <a-text
-      value="This content will always face you."
-      look-at="[gps-camera]"
-      scale="120 320 120"
-      gps-entity-place="latitude: <add-your-latitude>; longitude: <add-your-longitude>;"
-    ></a-text>
   </a-scene>
 </a-scene>
 </body>
