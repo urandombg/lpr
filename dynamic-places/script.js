@@ -66,7 +66,4 @@ window.onload = () => {
             timeout: 27000,
         }
     );
-  const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
-  console.log(distanceMsg);   // "890 meters"
-  console.log('fff')
 };
